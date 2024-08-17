@@ -1,0 +1,19 @@
+
+@media only screen and (max-width: 460px) {
+    .bio-box {
+        height: 550px;
+    }
+    .mine_info h3 {
+        font-size: 14px;
+        width: 90%;
+    }
+    .bio-box p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .link1, .link2, .link3, .link4 {
+        font-size: 11px;
+    }
+}

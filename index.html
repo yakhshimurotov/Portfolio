@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="icon" type="image/x-icon" href="image/title_pink_logo.png">
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="continer">
+      <!--- ALL YOUR CONTENT HERE --->
+
+      <!--- NAVBAR PAGE --->
+      <navbar id="myDIV" class="myDIV">
+        <a href="#" class="link1">Home</a>
+        <a href="#About" class="link2">About</a>
+        <a href="#Progects" class="link3">Progects</a>
+        <a href="#Contact" class="link4">Contact</a>
+      </navbar>
+      <!--- NAVBAR PAGE --->
+
+      <!--- INFO PAGE --->
+      <div class="mine_info">
+        <div class="my-image">
+          <img src="/image/User.jpg" alt="" />
+          <span class="hand-icon">👋</span>
+        </div>
+        <h3>
+          <span>Lorem ipsum dolor sit amet consectetur,</span> adipisicing elit.
+          Fugiat dolor voluptate tempore dolorem ea dolorum nostrum eligendi,
+          soluta repellendus ducimus quis quos provident molestias
+          <span>minima natus odit modi</span> dignissimos veniam?
+        </h3>
+      </div>
+      <!--- INFO PAGE --->
+
+      <div class="line" id="About"></div>
+
+      <!--- ABOUT PAGE --->
+      <div class="bio-box"  id="box-position">
+        <h1 class="style">About</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+          placeat impedit accusamus modi iste, deleniti nobis architecto iusto
+          eaque soluta ducimus, quam eius nihil maiores adipisci? Non
+          consectetur necessitatibus blanditiis tempore, reprehenderit excepturi
+          vel at voluptates cupiditate harum ab fugit libero molestias
+          aspernatur incidunt <a href="#">deleniti expedita</a> sit ullam, consequatur culpa.
+        </p>
+        <div class="img-list">
+          <h1>My pictures</h1>
+          <img src="/image/User.jpg" alt="" />
+          <img src="/image/User.jpg" alt="" />
+          <img src="/image/User.jpg" alt="" />
+          <img src="/image/User.jpg" alt="" />
+        </div>
+      </div>
+      <!--- ABOUT PAGE --->
+
+      <!--- PROGECT PAGE --->
+      <div id="Progects"></div>
+      <div class="progect-box" id="box-position">
+        <h1 class="style">Progects</h1>
+        <div class="progect-list">
+          <div class="pr-1">
+            <img
+              src="/image/wallpaper_24dp_FILL0_wght400_GRAD0_opsz24.svg"
+              alt=""
+            />
+           <button>Run Code</button>
+          </div>
+          <div class="pr-2">
+            <img
+              src="/image/wallpaper_24dp_FILL0_wght400_GRAD0_opsz24.svg"
+              alt=""
+            />
+            <button>Run Code</button>
+          </div>
+          <div class="pr-3">
+            <img
+              src="/image/wallpaper_24dp_FILL0_wght400_GRAD0_opsz24.svg"
+              alt=""
+            />
+            <button>Run Code</button>
+          </div>
+        </div>
+      </div>
+      <!--- PROGECT PAGE --->
+      <div id="Contact"></div>
+      <div class="contact" id="box-position">
+        <h1 class="style">Contact</h1>
+        <div class="form-box">
+          <form>
+            <label for="name">
+              <input type="text" name="name" id="name" placeholder="Your name">
+            </label>
+            <label for="lastname">
+              <input type="text" name="lastname" id="last name" placeholder="Your last name">
+            </label>
+            <button class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gsap animation connected 🌸-->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="/[YOUR_DIRECTORY]/ScrollSmoother.min.js"></script>
+    <!-- Gsap animation connected 🌸-->
+    <script src="/script.js"></script>
+  </body>
+</html>
